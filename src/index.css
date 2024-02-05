@@ -37,22 +37,7 @@ span[role="image"] {
   text-shadow: 0 0 0 black;
 }
 
-.App.dark {
-  --font-color: rgb(255, 255, 255);
-  --background: rgb(50, 50, 50);
-  --background--light: rgb(80, 80, 80);
-  transition: all 0.3s;
-}
 
-.App {
-  margin: 2rem auto;
-  padding: 1rem 2rem;
-  max-width: 600px;
-  background: var(--background);
-  color: var(--font-color);
-  box-shadow: 4px 4px 10px rgba(33, 33, 33, 0.2);
-  border-radius: 10px;
-}
 
 header {
   display: flex;
@@ -97,17 +82,10 @@ header button {
   text-decoration: line-through;
 }
 
-.Items button.add {
-  background-color: var(--yellow);
-}
-
-.Items button.remove {
-  background-color: var(--magenta);
-  color: white;
-}
 
 .Items li .category {
   justify-self: end;
   color: var(--font-color-light);
   font-size: 0.8em;
 }
+
